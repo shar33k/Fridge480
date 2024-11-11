@@ -10,21 +10,18 @@ The goal is to build a refrigerator inventory application. The app will allow us
 
 Data Requirements\
 **Entities and Relationships**\
-User
-
+*User*\
 For each user, we store their user ID, passcode, and name.
 This is so that we can identify who has done what in the fridge.
 M:M with FridgeItem: A user can add many items, but each FridgeItem is added by one specific user
 
-FridgeItem
-
+*FridgeItem*\
 For each item in the refrigerator, we store the item name, quantity, and expiration date.
 Each item is linked to a user ID, indicating who added or updated it.
 M:M with User: one user can add multiple items to the fridge, but each item is added by a single user
 M:1 with Category: a category can have multiple items, but each item can only belong to one category.
 
-Category
-
+*Category*\
 Each item belongs to a category (e.g., vegetables, dairy, leftovers). The Category entity contains a unique category ID and a name for easy organization and filtering of fridge contents.
 1:M with category: One Category can have multiple items, while each item can only belong to one category.
 
