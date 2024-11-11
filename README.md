@@ -8,7 +8,7 @@ Blaine Edwards, bedwa3@uic.edu, GitHub: blaineedwards45
 # Overview
 The goal is to build a refrigerator inventory application. The app will allow users to manage their fridge contents through a digital fridge. This fridge is intended to be one large fridge used for something like a restaurant. Since many people access the fridge, users log what they added or removed. Fridge items are stored by category, for example apples would be stored under fruit. Fridge items also allow the user to see who put the item in the fridge. Thus this allows users to be more informed about what food they have thus improving the management of their fridge.
 
-#Data Requirements
+# Data Requirements
 **Entities and Relationships**\
 *User*\
 For each user, we store their user ID, passcode, and name.
