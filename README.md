@@ -3,6 +3,7 @@
 Team 2\
 Mohammad Ayesh, mayes3@uic.edu, GitHub : mayesh3\
 Shareek Shaffie, smoah45@uic.edu, GitHub : shar33k
+Ceasar Attar, catta2@uic.edu, GitHub: ceasarattar
 
 Overview
 The goal is to build a refrigerator inventory application. The app will allow users to manage their fridge contents through a digital fridge. This fridge is intended to be one large fridge used for something like a restaurant. Since many people access the fridge, users log what they added or removed. Fridge items are stored by category, for example apples would be stored under fruit. Fridge items also allow the user to see who put the item in the fridge. Thus this allows users to be more informed about what food they have thus improving the management of their fridge.
